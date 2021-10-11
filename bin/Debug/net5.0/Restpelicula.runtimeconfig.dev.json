@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/jparedes/.dotnet/store/|arch|/|tfm|",
+      "/home/jparedes/.nuget/packages"
+    ]
+  }
+}

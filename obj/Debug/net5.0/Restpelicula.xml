@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Restpelicula</name>
+    </assembly>
+    <members>
+        <member name="M:Restpelicula.Controllers.ActoresPeliculaController.Add_actors_films(Restpelicula.Models.ActoresPelicula)">
+             <summary>
+             Metodo para relacionar los actores que han participado en una pelicula
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.ActoresPeliculaController.Delete_actors_films(System.Int32,System.Int32,System.String)">
+             <summary>
+             Metodo para eliminar una relacion que haya entre una pelicula y un actor
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.ActorsController.Get_actors(System.String)">
+             <summary>
+             Metodo para listar los actores
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.ActorsController.Actors_films(System.Int32,System.String)">
+             <summary>
+            Metodo para ver las peliculas que ha participado un actor
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.ActorsController.post_actors(Restpelicula.Models.Actore)">
+             <summary>
+            Metodo para Crea un nuevo actor
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.ActorsController.Put_actors(System.Int32,Restpelicula.Models.Actore)">
+             <summary>
+            Metodo para actualizar un actor 
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.ActorsController.Delete_actor(System.Int32,System.String)">
+             <summary>
+            Metodo para eliminar un actor
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.FilmsController.Get_films(System.String)">
+             <summary>
+            Metodo para consulta la lista de pelicula
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.FilmsController.films_actors(System.String,System.String)">
+             <summary>
+            Metodo para ver los actores que han participado en una pelicula
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.FilmsController.Pos_films(Restpelicula.Models.Pelicula)">
+             <summary>
+            Metodo para registrar una nueva pelicula
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.FilmsController.Put_films(System.Int32,Restpelicula.Models.Pelicula)">
+             <summary>
+            Metodo para actualizar una peliculas
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.FilmsController.Delete_films(System.Int32,System.String)">
+             <summary>
+            Metodo para borrar una pelicula
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.LoginController.Login(Restpelicula.Models.Login)">
+             <summary>
+            Metodo para hacer login
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.RolController.Get_rol">
+             <summary>
+             Metodo para listar los roles que hay, por lo generar solo deben ser dos: Autorizado y No Autorizado
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.RolController.Post_rol(Restpelicula.Models.Rol)">
+             <summary>
+             Metodo para crear los roles por lo generar solo deben ser dos: Autorizado y No Autorizado
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.RolController.Delete_rol(System.Int32,System.String)">
+             <summary>
+             Metodo para borrar un rol
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.UserController.get_user">
+             <summary>
+            Metodo para ver la lista de usuarios
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.UserController.pod_user(Restpelicula.Models.Usuario)">
+             <summary>
+            Metodo para registrar un usuario y Asignarle un rol los roles son: Autorizado y No Autorizado
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.UserController.update_password(Restpelicula.Models.Change_password)">
+             <summary>
+            Metodo para cambiar la password a un usuario
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.UserController.Change_rol(Restpelicula.Models.Change_rolcs)">
+             <summary>
+            Metodo para cambiar el rol al usuario
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Restpelicula.Controllers.UserController.Delete_user(System.Int32)">
+             <summary>
+            Metodo para eliminar un usuario
+             </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
